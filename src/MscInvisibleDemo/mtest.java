@@ -10,6 +10,7 @@ public class mtest {
     public static void main(String[] args) throws InterruptedException {
         Thread t = new Thread(() -> {
             MscTest.main(new String[0]);
+            System.out.println();
             System.out.println("子程序运行中");
         });
         t.start();
