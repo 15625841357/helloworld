@@ -14,6 +14,7 @@ public class mtest {
             System.out.println();
             System.out.println("测试");
             System.out.println("测试");
+            System.out.println("测试");
         });
         t.start();
         t.join();
