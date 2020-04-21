@@ -21,6 +21,7 @@ public class test {
         SpeechUtility.createUtility("appid=" + APPID);
         Recognize();
         System.out.println("吴俊淇");
+        System.out.println("ceshi");
     }
 
     public static void main(String[] args) {
