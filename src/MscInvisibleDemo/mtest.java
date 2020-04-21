@@ -11,8 +11,7 @@ public class mtest {
         Thread t = new Thread(() -> {
             MscTest.main(new String[0]);
             System.out.println("子程序运行中");
-            System.out.println("吴俊淇");
-            System.out.println();
+            System.out.println("测");
         });
         t.start();
         t.join();
