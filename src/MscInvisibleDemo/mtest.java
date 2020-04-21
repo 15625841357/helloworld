@@ -13,7 +13,6 @@ public class mtest {
             System.out.println("子程序运行中");
             System.out.println();
             System.out.println("测试");
-            System.out.println();
         });
         t.start();
         t.join();
